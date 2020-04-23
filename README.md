@@ -1,7 +1,13 @@
-# DS-ML-Notebooks
-A set of notebooks I created while learning data science and Machine learning with @BrahimMebrek, this repo contains the following notebooks: 
+# PJM Time Series Analysis
+Notebooks created with @BrahimMebrek for time series analysis and forecasting of PJM Energy consumption on the eastern and western side of the US from 2001 upto 2018.
 
-- Time Series Analysis with several models: Linear Regression, XGBoost, Facebook Prophet, ARIMA...etc
-- Monte Carlo Simulation
-- Random Walks
-- Genetic Algorithms (Finding a given string from $N$ random strings using a genetic algorithm)
+## EDA:
+
+The first part is an exploratory data analysis of the dataset along with some plots to undertsand the data better
+
+## Forecasting
+
+We used several models for forecasting: Linear regression, XGBoost and Facebook Prophet, along with high level explanation of each step. 
+
+Among the 3 models, XGBoost gave the best results in terms of acurracy and training time, we used 3 metrics to compare the 3 models: MAE, RMSE and MAPE.
+
